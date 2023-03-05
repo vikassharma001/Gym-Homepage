@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gym website</title>
+    <style>
+        body {
+            color: white;
+            margin: 0px;
+            padding: 0px;
+            background: url(/adult-1850925_1280.jpg);
+        }
+        
+        .left {
+            display: inline-block;
+            width: 10%;
+            margin: 25px 10px;
+        }
+        
+        .left img {
+            width: 46px;
+            filter: invert(100%);
+            display: block;
+            margin: 0px auto;
+        }
+        
+        .left div {
+            text-align: center;
+        }
+        
+        .mid {
+            position: absolute;
+            top: 30px;
+            left: 370px;
+            display: block;
+            width: 35%;
+            margin: 10px auto;
+            padding: 3px 10px;
+        }
+        
+        .right {
+            display: inline-block;
+            position: absolute;
+            top: 45px;
+            right: 15px;
+            width: 20%;
+        }
+        
+        .navbar {
+            display: inline-block;
+        }
+        
+        .navbar li {
+            display: inline-block;
+            font-size: 12px;
+        }
+        
+        .navbar li a {
+            color: white;
+            text-decoration: none;
+            padding: 4px 8px;
+            font-size: 19px;
+        }
+        
+        .navbar li a:hover,
+        .navbar li a:active {
+            text-decoration: underline;
+            color: grey;
+        }
+        
+        .btn {
+            font-family: 'Baloo Bhai', cursive;
+            margin: 0px 9px;
+            background-color: black;
+            color: azure;
+            padding: 4px 24px;
+            border: 2px solid grey;
+            border-radius: 10px;
+            font-size: 13px;
+            cursor: pointer;
+        }
+        
+        .btn:hover {
+            cursor: pointer;
+            background-color: darkblue;
+            color: green;
+        }
+        
+        .container {
+            width: 40%;
+            margin: 30px 65px;
+            padding: 2px 48px;
+        }
+        
+        .FormGroup input {
+            border: 2px solid burlywood;
+            border-radius: 8px;
+            text-align: center;
+            margin: 3px;
+            padding: 2px 2px;
+            width: 40%;
+        }
+        
+        .btn1 {
+            display: block;
+            border: 2px solid cyan;
+            border-radius: 8px;
+            width: 15%;
+            margin: 6px;
+        }
+        
+        .btn1:hover {
+            cursor: pointer;
+            background-color: cyan;
+            color: blue;
+        }
+    </style>
+</head>
+<link href="https://fonts.googleleapis.com/css?family-Baloo+Bhai&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css">
+
+<body>
+    <header class="header">
+        <div class="left">
+            <img src="sm_5a12c03e7a0c1.jpg" alt="">
+            <div>
+                SharmaFitness
+            </div>
+        </div>
+        <div class="mid">
+            <ul class="navbar">
+                <li>
+                    <a href="active">Home</a>
+                </li>
+                <li>
+                    <a href="#">About us</a>
+                </li>
+                <li>
+                    <a href="#">Fitness calculator</a>
+                </li>
+                <li>
+                    <a href="#">Contact us</a>
+                </li>
+            </ul>
+        </div>
+        <div class="right">
+            <button class="btn">Call Us Now</button>
+            <button class="btn">Email Us</button>
+        </div>
+
+    </header>
+    <div class="container">
+        <h1>Join the Gym</h1>
+        <div class="FormGroup">
+            <input type="text" Name="" placeholder="Enter Name">
+        </div>
+        <div class="FormGroup">
+            <input type="text" Password="" placeholder="Enter Password">
+        </div>
+        <div class="FormGroup">
+            <input type="text" name="" placeholder="Enter Email">
+        </div>
+        <input class="btn1" type="button" value="Submit">
+    </div>
+</body>
+
+</html>
